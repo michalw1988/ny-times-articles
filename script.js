@@ -13,8 +13,8 @@ $(document).ready(function () {
 
 	// Enter pressed in the query textbox
 	$('#query').keypress( e => {
-      if(e.keyCode == '13'){
-     	page = 1;
+    if(e.keyCode == '13'){
+	    page = 1;
 			getArticles();
     }
   });
