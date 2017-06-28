@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NYTimes Articles</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and jQuery files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- My CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- JS script -->
+    <script src="script.js"></script> 
+  </head>
+  <body>
+
+    <!-- header -->
+    <header class="container-fluid text-center">
+      <h1>New York Times articles</h1>
+    </header>
+    
+    <!-- search bar -->
+    <section class="container">
+      <div class="row" id="searchBar">
+
+        <!-- query text field and button -->
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="query">What do you want to read about?</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="query" placeholder="Search phrase">
+              <div class="input-group-btn">
+                <button class="btn btn-default" id="searchButton" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- date from -->
+        <div class="col-sm-3">
+          <div class="form-group">
+            <label for="query">Date from:</label>
+            <input type="text" class="form-control" id="dateFrom" placeholder="YYYY-MM-DD">
+          </div>
+        </div>
+
+        <!-- date to -->
+        <div class="col-sm-3">
+          <div class="form-group">
+            <label for="query">Date to:</label>
+            <input type="text" class="form-control" id="dateTo" placeholder="YYYY-MM-DD">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- search results -->
+    <section class="container text-center">
+      <div class="row" id="searchResults">
+        <div class="alert alert-info">Enter query, dates and click the search button to browse the articles.</div>
+      </div>
+      <div class="row" id="pagination"></ul>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid text-center">
+      <p>Coded by Michal Wisniewski, 2017</p>
+    </footer>
+
+  </body>
+</html>

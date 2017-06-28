@@ -1,0 +1,44 @@
+header {
+  background-color: #021026;
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+
+footer {
+  background-color: #021026;
+  color: #fff;
+  padding: 15px;
+}
+
+section {
+  background-color: #f4f4f4;
+  padding: 10px 0 20px 0;
+}
+
+#searchBar {
+  border-bottom: 2px dashed #ddd;
+  padding-bottom: 10px;
+}
+
+#searchBar input, #searchBar button {
+  width: 100%;
+}
+
+.alert {
+  margin: 0 20px 0 20px;
+}
+
+article.articleBox {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+article.articleBox > h2 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
